@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-08-28 21:20:18">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>incident_critical_notification_KK</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>ec4685e6838322107f44168c50da1ee5</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>757ba74f832322107f44168c50da1ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_email_14d015a683c322107f44168c50da1ec7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email"><sys_email action="INSERT_OR_UPDATE"><blind_copied/><body>&lt;html&gt;&lt;head&gt;&lt;style&gt;
+	#snc_notification_preference {
+		text-decoration: none;
+	}
+	
+	#snc_notification_unsubscribe {
+		text-decoration: none;
+	}
+&lt;/style&gt;
+
+&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;NOTICE&lt;/strong&gt; a network incident INC0010001 was assigned critical priority.&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Caller: Alene Rabeck&lt;/p&gt;&#13;
+&lt;p&gt;Short description: Wifi is down at east campus &lt;/p&gt;&#13;
+&lt;p&gt;Description: &lt;/p&gt;&#13;
+&lt;p&gt;Review and address this incident as soon as possible.&lt;/p&gt;&#13;
+&lt;p&gt;Thank you,&lt;/p&gt;&#13;
+&lt;p&gt;IT Support&amp;nbsp;&lt;/p&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;a id="snc_notification_unsubscribe" href="mailto:?subject=Unsubscribe from &amp;quot;critical network incident notification&amp;quot;&amp;amp;body=Sending this email with the predefined content in the subject and body will unsubscribe you from the notification &amp;quot;critical network incident notification&amp;quot;%0D%0A%0D%0AUnsubscribe:{&amp;quot;id&amp;quot;:&amp;quot;520c05ee838322107f44168c50da1e37&amp;quot;,&amp;quot;token&amp;quot;:&amp;quot;c797e62132&amp;quot;}"&gt;Unsubscribe&lt;/a&gt; | &lt;a id="snc_notification_preference" href="https://kura-labs-jul-4728-0011.lab.service-now.com/nav_to.do?uri=notification_preferences.do%3Fsysparm_notification=520c05ee838322107f44168c50da1e37"&gt;Notification Preferences&lt;/a&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div style="display:inline"&gt;Ref:MSG0000718_fydQmFptZdFnZAgBrrtR&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</body><body_text/><checkpoint>0</checkpoint><content_type>text/html</content_type><copied/><deleted>false</deleted><direct>brendan.qin@example.com,brice.hedglin@example.com,bradly.hasselvander@example.com,alyssa.biasotti@example.com,alva.pennigton@example.com,amelia.caputo@example.com,brent.vaidya@example.com,brant.darnel@example.com,jacklyn.emayo@example.com,amos.linnan@example.com,karla.ken@example.com</direct><error_string/><headers>X-ServiceNow-Source:Notification-520c05ee838322107f44168c50da1e37&#13;
+List-Unsubscribe:&lt;mailto:?body=Sending+this+email+with+the+predefined+content+in+the+subject+and+body+will+unsubscribe+you+from+the+notification.%0D%0A%0D%0AUnsubscribe%3A%7B%22id%22%3A%22520c05ee838322107f44168c50da1e37%22%2C%22token%22%3A%22c797e62132%22%7D&#13;
+ &amp;subject=Unsubscribe+from+%22critical+network+incident+notification%22&gt;&#13;
+X-ServiceNow-SysEmail-Version:2&#13;
+</headers><importance/><instance>ab70956683c322107f44168c50da1ef1</instance><mailbox display_value="Outbox">outbox</mailbox><message_id/><notification_type>SMTP</notification_type><receive_type>new</receive_type><recipients>brendan.qin@example.com,brice.hedglin@example.com,bradly.hasselvander@example.com,alyssa.biasotti@example.com,alva.pennigton@example.com,amelia.caputo@example.com,brent.vaidya@example.com,brant.darnel@example.com,jacklyn.emayo@example.com,amos.linnan@example.com,karla.ken@example.com</recipients><reply_to/><state>ready</state><status/><subject>Critical Network Incident INC0010001 was created byAlene Rabeck</subject><sys_created_by>system</sys_created_by><sys_created_on>2025-08-02 00:16:15</sys_created_on><sys_id>14d015a683c322107f44168c50da1ec7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-02 00:16:15</sys_updated_on><target_table>incident</target_table><type>send-ready</type><uid>N/A</uid><user/><user_id/><weight>0</weight></sys_email></record_update>]]></payload>
+<payload_hash>1971485680</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>397ba74f832322107f44168c50da1ea6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19868299dfc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<table/>
+<target_name>Critical Network Incident INC0010001 was created byAlene Rabeck</target_name>
+<type>Email</type>
+<update_domain>global</update_domain>
+<update_guid>df72996608c322109dfbbbbaa75d23b7</update_guid>
+<update_guid_history>df72996608c322109dfbbbbaa75d23b7:1971485680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_6e807347931331003b4bb095e57ffbcc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>Networking Operations</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>Networking Operations</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:54:57</sys_created_on><sys_id>6e807347931331003b4bb095e57ffbcc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:54:57</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>1663851692</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:18</sys_created_on>
+<sys_id>717ba74f832322107f44168c50da1ea7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198682a857a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:18</sys_updated_on>
+<table/>
+<target_name>Networking Operations</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>f1b2dd2af5c32210599f60fbe89bd3a4</update_guid>
+<update_guid_history>f1b2dd2af5c32210599f60fbe89bd3a4:1663851692,65ca9552bb1e6210e87a0170d9b0da92:1663851692</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_520c05ee838322107f44168c50da1e37</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;true&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;triggered&lt;/generation_type&gt;&lt;importance&gt;high&lt;/importance&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;NOTICE&lt;/strong&gt; a network incident ${number} was assigned critical priority.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Caller: ${caller_id}&lt;/p&gt;
+&lt;p&gt;Short description: ${short_description}&lt;/p&gt;
+&lt;p&gt;Description: ${description}&lt;/p&gt;
+&lt;p&gt;Review and address this incident as soon as possible.&lt;/p&gt;
+&lt;p&gt;Thank you,&lt;/p&gt;
+&lt;p&gt;IT Support&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;critical network incident notification&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups name="Networking Operations"&gt;6e807347931331003b4bb095e57ffbcc&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Critical Network Incident ${number} was created by${caller_id}&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-02 00:10:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;520c05ee838322107f44168c50da1e37&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;critical network incident notification&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_520c05ee838322107f44168c50da1e37&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:18:09&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1945117489</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>757ba74f832322107f44168c50da1ea6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1986824a8f10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<table>incident</table>
+<target_name>critical network incident notification</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>84411d2617c32210fb1c380fd9ef96a9</update_guid>
+<update_guid_history>84411d2617c32210fb1c380fd9ef96a9:-1945117489,8b8f0122bbc32210331cd2bee13b1da4:-1359375881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_ab70956683c322107f44168c50da1ef1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due>2025-08-02 02:15:52</activity_due><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><business_duration/><business_impact/><business_service/><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Alene Rabeck">be82abf03710200044e0bfc8bcbe5d1c</caller_id><category>network</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company display_value="ACME UK">a66b1fb03710200044e0bfc8bcbe5d08</company><contact_type/><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description/><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>1</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010001</number><opened_at>2025-08-02 00:14:50</opened_at><opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>1</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering/><severity>3</severity><short_description>Wifi is down at east campus </short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-02 00:15:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab70956683c322107f44168c50da1ef1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-02 00:15:52</sys_updated_on><task_effective_number>INC0010001</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>1</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>2064766868</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>797ba74f832322107f44168c50da1ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198682cfa710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<table/>
+<target_name>INC0010001</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>cd535d6af5c322108fc73bc8c9b1313e</update_guid>
+<update_guid_history>cd535d6af5c322108fc73bc8c9b1313e:2064766868</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_c404d9aa83c322107f44168c50da1e48</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due>2025-08-02 02:32:09</activity_due><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><business_duration/><business_impact/><business_service/><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Carmel Overfelt">0a826bf03710200044e0bfc8bcbe5d68</caller_id><category>network</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company display_value="ACME UK">a66b1fb03710200044e0bfc8bcbe5d08</company><contact_type>phone</contact_type><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description>Because the VPN is down, remote employees are unable to log to complete work </description><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>1</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010002</number><opened_at>2025-08-02 00:30:10</opened_at><opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>1</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering/><severity>3</severity><short_description>remote employees are  having VPN issues </short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-02 00:32:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c404d9aa83c322107f44168c50da1e48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-02 00:32:09</sys_updated_on><task_effective_number>INC0010002</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>1</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>1553627794</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>b17ba74f832322107f44168c50da1ea6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1986832ef410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<table/>
+<target_name>INC0010002</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>64d4512ed3c32210c4d8902643e9b216</update_guid>
+<update_guid_history>64d4512ed3c32210c4d8902643e9b216:1553627794</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_69d8c12a838322107f44168c50da1ebb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=6155000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from&gt;aee2940eb8d222107f44046e3758c053&lt;/copied_from&gt;&lt;copied_from_name&gt;Kura Workload 1&lt;/copied_from_name&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;critical_incident_network_outage_notification&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"7aca2c57-8918-4198-bf33-cdcd1c2c25d6":["record"],"acdc2488-67a7-4927-b716-9303a7e5bc73":["record"],"d8c6e622-53cc-4fad-a895-63c3c96183f0":["record"],"b42b1568-9fe9-4b69-a635-48cd6120d6f2":["record"],"27d6e416-be85-475e-9479-216d6c7ffbe9":["record"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"27d6e416-be85-475e-9479-216d6c7ffbe9":["record"],"a06c1c52-add5-4b3f-a106-36ec32f85546":["record"],"8e826b72-98e7-4753-8725-086f37cc58e7":["record"]},"attributes":{}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;critical incident network outage notification&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:41:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;69d8c12a838322107f44168c50da1ebb&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;critical incident network outage notification&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_69d8c12a838322107f44168c50da1ebb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:14:54&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=69d8c12a838322107f44168c50da1ebb^sys_idNOT IN29d8cdaa838322107f44168c50da1ece"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;69d8c12a838322107f44168c50da1ebb&lt;/id&gt;&lt;name&gt;critical incident network outage notification&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:41:23&lt;/sys_created_on&gt;&lt;sys_id&gt;29d8cdaa838322107f44168c50da1ece&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 23:41:23&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=29d8cdaa838322107f44168c50da1ece"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=69d8c12a838322107f44168c50da1ebb^sys_idNOT IN21209d2683c322107f44168c50da1ed5,a9d8cdaa838322107f44168c50da1ed4,b5d8cdaa838322107f44168c50da1edf"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="critical incident network outage notification"&gt;69d8c12a838322107f44168c50da1ebb&lt;/model&gt;&lt;model_id&gt;69d8c12a838322107f44168c50da1ebb&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-02 00:13:20&lt;/sys_created_on&gt;&lt;sys_id&gt;21209d2683c322107f44168c50da1ed5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:13:20&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=21209d2683c322107f44168c50da1ed5"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="critical incident network outage notification"&gt;69d8c12a838322107f44168c50da1ebb&lt;/model&gt;&lt;model_id&gt;69d8c12a838322107f44168c50da1ebb&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:41:24&lt;/sys_created_on&gt;&lt;sys_id&gt;a9d8cdaa838322107f44168c50da1ed4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:13:20&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a9d8cdaa838322107f44168c50da1ed4"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="critical incident network outage notification"&gt;69d8c12a838322107f44168c50da1ebb&lt;/model&gt;&lt;model_id&gt;69d8c12a838322107f44168c50da1ebb&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:41:24&lt;/sys_created_on&gt;&lt;sys_id&gt;b5d8cdaa838322107f44168c50da1edf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:13:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5d8cdaa838322107f44168c50da1edf"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=69d8c12a838322107f44168c50da1ebb^sys_idNOT INb4c9cd2a838322107f44168c50da1e7d"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="critical incident network outage notification"&gt;69d8c12a838322107f44168c50da1ebb&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:45:26&lt;/sys_created_on&gt;&lt;sys_id&gt;b4c9cd2a838322107f44168c50da1e7d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:13:21&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9Va23LbNhD9FQ6f2hm1w4skWu6TK9uNZxx7RlbShzTlgAAoYUKBCgjSUTL59y54kSheZF3oVPGDLQIg9uzi7FlA8IdveoA8GuiX+hR5AdV7OuOSCo6C6WpJoVmqZpejhepbIE6QDMVKv5Qipj3dF+FiShfLAEkY7KMggsZQECr0S7OnJyiI6dMquiMwE7yfTpPPqefd8Mw4ZoRyCU2ERTDZ6n3ec7fpwXMWEEG5fvnhY09fIgFzSWXnW6VLAnB3yyvtIYPPFAzsm9QcXRjYtuDHMKyLvukNbc+0iI0oMmBcNSQV2LIhMhuf6RdJOaFkHY5a0ARF5JEHq9KILxH7CnNeGKrXp+ALplnI1o9uHpqsGc9DhunjUrKQZy0ZuqwzDOIFf8hQq6BSH8WBLIIKLXEE89GlAgrBLXD4T/PweVIYvGU89SnvDEKMgvUTklIwL5Y0UgvgswCWws0iEoWxSNFPbsaPk2v376vp+M3NxJ3cPE0nd+PpzbX+PfXL/RyrGTOEORY3c+f7mgm3jAZq2Xi88ABNT4+wYEt5hSVLCsp9721oPA45YWlUalTGRVe0TeXC+11cNoxWNuOSxYLRS8FCweTqn9gwbGL+i2HOGRjLnjmVz6H4dDSpx2VHUlI7hkOI2UZq7JVIXQ5QgweyIVblIOyid97Szu++YfxPDM/l6liCL0JCg+vNdDp0zmZAecaXsVQxKuLihksqVDzgPf391f34zdXDXzdPf+R/byePb4vP00d47xlxGbkydBEhbinqygT48lKmZDGpp8vLiSJiDlO46/Wsp0u6AOuVuGcROP4Bkr2Icjol9Pv3+ZSTmGshLDz80nAsIMhSK0TTv1ugWb42/hMNKJYlEvnvovLTWxZFjM9KqNdG06jUbK7NARm1wqXMdnSi8Y9dakU96EklmJUCeLxGFKuX6oOJ+5Zhe0PDUepgwkffNBxjgHxiG4Z3UdKHOsRW7LJClA514jCViFJiBnvQsBruHLJRzoy9KJVs87FwXdElF6NxN9DMjqBZClpFVO2DVHVN0az5epupu1zreLuBSILgDbKvSKoBe6ihH4TPIOhHKKGH8KeZCGNOqtKk5tQY1zYjtF/y+P3aoSr6oaC7AWyPOCc93IS9IC7iq1dTQss2qTPsDw0QQFtp32A08jCyfN8ZOtQ0K0q4AdeI+IwV8AXmJU3UbVPDRhIlTdw7QAdPAFjTxIMBnq6GOUkbtTDr+zlU73lOuQtQhRsoXauJ3yyAE3jR123m10wnm1zvKvvvc6fSo783IoOB42AHTkiQ+36fesjsWwM0coY29Su5X4O3C7psiNYrnpuiVZSab9GFd1nXeX1L8JoEjqiUqkgdXrs57GnTd1BmpFQ/1WJoqbyEQnsI+W93m3HaE4WymB6Zuyri+6BQC6u9LgwvlPPaLgJM/wntW6bV7rMlKmd36KqQJNn29XW2Gsiy0Mi0W+TGGTbJzQZiO/gz3XTsmS1Ja9417T72JX/SmEOt24Uj6FyhTHkfsWOj01VQzM6DYr1eUOyTN1dFXraeNI8B+xOVs3RncUpNUzapG/plIb8ONejQwIjGfC3/BpMSzVtpck4hpAHsosGgpqyfquDlilKHsmbwjwWS7ctrlQ2atXwzdX5Fq0KFH3FGpsTGI9JWuPpO6z65vXpVus+0hB2cIUlTwu2sY4fNW52zsZKV6LvNjj1rVKdeNxeq07xuLFUveX16Edp1wm9Acf7lRYGeZstwRFEJOa6cS3CXFzsxZ59j6uI54rPs0qYwdAtxpgjPtWyIlg3psiwEz2gV6dX6BKRVeZF/mQ0NkCE806+uLNOEilXNV9WoxUuiSsYPLknWjpJU3HlGUqjr7FUp8wo/OvmG1htBzg0MbJumXbvLHpTvsrcJ3Q6zpdxYx5abOUsvgUvm80WTbEFTcVvf5GoLJPGcRj0NVja9H0m1j4lIpqN/1zs8gOHyPVKer03VqDWjkrZkbFX3HUmSVNOrSc4bCF8lVVnQdx61drhvduK+1YX79nHu90+uZ3lEmgtaHr1ui9gR/+ejN1exj/8BMb8ODKomAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=69d8c12a838322107f44168c50da1ebb^sys_idNOT IN027bc5ae838322107f44168c50da1ead"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Send Notification"&gt;0d8dd9f10f11101051218e8ebc767e27&lt;/action_type&gt;&lt;action_type_parent display_value="Send Notification"&gt;7eda5d710f11101051218e8ebc767ec1&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="critical incident network outage notification"&gt;69d8c12a838322107f44168c50da1ebb&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:52:54&lt;/sys_created_on&gt;&lt;sys_id&gt;027bc5ae838322107f44168c50da1ead&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:14:44&lt;/sys_updated_on&gt;&lt;ui_id&gt;8e826b72-98e7-4753-8725-086f37cc58e7&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFOTQpdysQEhILEqcbhCLHHoO1zgHHKXSrvvuOk/RcWIFgpb2Lx57xzD/zybmfOwXNwTlyNLBSc2foTKlqrGE+P9ZADfBBqQe3FbefKRmxRmsozGKBR7msK0Vnd70HWtiTVBz3naP7h6FTUY3BDWjnaL6zJTk6hDzhfCKIJwghHvEi4pMEEshYPI7BTzCgohkoPHq1TG83XTOr7JqXrMkxr1Qujee950m/Mzg7wR10sumQoQOvBgoOmIegqoahk9MCiyz1bGXB+vllodaGJ1mYrtCcvtbyN94c+PacAKyM9SKslmkvUGcWJ9TQa6MbZhq90quUDOpOEw6CNsocb9q6A5eVkWXRuRiaqaV3qZq8uOgUcVYBNvrR1JgEVLZQmzlejlWI66fy5WqZ5KksWkn6ElXJqFqtqDFaZo2x6cydRt68KSwoaPXPaVXJ4jGtdDmVbWBMMx89KlyMhCpfMJ9aPhYjymxNI5Scjk7RftKa76iWtsCfGAadh/2dex1u5G0hnxs4s3PEiRcHE4+5sR8Fbugx6mYJz1ya+SIKw3EyzoizGDr1rD5WtK7XimGr0ufGFtzp1yuVtmK3SqftwFlnpmVlfmDWU+j1WQxX+GycXSMkCyZb4fdQOVvvfAyZhLyHTOBvIHPTDsrwYIY9NXu2803fwUW30TPjf5CZbtgOIJN4/xEyfVlfxMyWrt+OzFZ7t4hhWZaJDCYuyRhzwxgSN/Fp7ELksUD4gefF4hPE/J2TojRSSEbb5qxJiXyPeRFAEiSB7yPOIgzJOGGRxymBIN4nCG8xGEcNCjAvpf41WMI22Lnig0/S+3xtPkkX2/ccLrAHbT3u25xdbdh7zIL3Meuo+szLhL2EqW0V5FSqtBumN9jbqe2LOXwrky04qRDA7D+HkKA4zlfa+vyDZ26rhUgRRltRdahx387x5vTUYNJegNQGSEWpc2p739ayC3o4IRAHfuJOxj6CDkHkZjwIXILgA1AQPv+ep/HhD6ms9eRbCgAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-02 00:13:20&lt;/sys_created_on&gt;&lt;sys_id&gt;65209d2683c322107f44168c50da1ed7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 00:13:20&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:41:24&lt;/sys_created_on&gt;&lt;sys_id&gt;b5d8cdaa838322107f44168c50da1ede&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 23:41:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 23:41:24&lt;/sys_created_on&gt;&lt;sys_id&gt;b5d8cdaa838322107f44168c50da1ee1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 23:41:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=69d8c12a838322107f44168c50da1ebb"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1317416540</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>bd7ba74f832322107f44168c50da1ea6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1986821af9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<table/>
+<target_name>critical incident network outage notification</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>e480d56603c322100b26d55811cca251</update_guid>
+<update_guid_history>e480d56603c322100b26d55811cca251:1317416540,e620dd266ac3221031a12f9713f30f25:436650275,66105d2637c3221065655ef1b04e4235:-313623600,a48b09aef38322106e72945071fc3770:-1322948701,e54bc1ae3083221007322bb632bdbd33:604528341,53ba096ecf832210086bcaec9cb86b18:-68247935,369a456e56832210c0380b6a4dd820b9:-1637520453,1fc9052e90832210b6b4d76ba18b545a:-1938627359,c01905ead68322107bd8b525101821ff:749821908,cad801ea99832210766b3f0f1d6e2b0d:-606401884,edd8cdaa50832210da1770816441b1d1:414761706</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_email_c184ddea83c322107f44168c50da1e77</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email"><sys_email action="INSERT_OR_UPDATE"><blind_copied/><body>&lt;html&gt;&lt;head&gt;&lt;style&gt;
+	#snc_notification_preference {
+		text-decoration: none;
+	}
+	
+	#snc_notification_unsubscribe {
+		text-decoration: none;
+	}
+&lt;/style&gt;
+
+&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;NOTICE&lt;/strong&gt; a network incident INC0010002 was assigned critical priority.&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Caller: Carmel Overfelt&lt;/p&gt;&#13;
+&lt;p&gt;Short description: remote employees are  having VPN issues &lt;/p&gt;&#13;
+&lt;p&gt;Description: Because the VPN is down, remote employees are unable to log to complete work &lt;/p&gt;&#13;
+&lt;p&gt;Review and address this incident as soon as possible.&lt;/p&gt;&#13;
+&lt;p&gt;Thank you,&lt;/p&gt;&#13;
+&lt;p&gt;IT Support&amp;nbsp;&lt;/p&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;a id="snc_notification_unsubscribe" href="mailto:?subject=Unsubscribe from &amp;quot;critical network incident notification&amp;quot;&amp;amp;body=Sending this email with the predefined content in the subject and body will unsubscribe you from the notification &amp;quot;critical network incident notification&amp;quot;%0D%0A%0D%0AUnsubscribe:{&amp;quot;id&amp;quot;:&amp;quot;520c05ee838322107f44168c50da1e37&amp;quot;,&amp;quot;token&amp;quot;:&amp;quot;c797e62132&amp;quot;}"&gt;Unsubscribe&lt;/a&gt; | &lt;a id="snc_notification_preference" href="https://kura-labs-jul-4728-0011.lab.service-now.com/nav_to.do?uri=notification_preferences.do%3Fsysparm_notification=520c05ee838322107f44168c50da1e37"&gt;Notification Preferences&lt;/a&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div style="display:inline"&gt;Ref:MSG0000723_JDc6FhnchudZgSHMqzXJ&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</body><body_text/><checkpoint>0</checkpoint><content_type>text/html</content_type><copied/><deleted>false</deleted><direct>brendan.qin@example.com,brice.hedglin@example.com,bradly.hasselvander@example.com,alyssa.biasotti@example.com,alva.pennigton@example.com,amelia.caputo@example.com,brent.vaidya@example.com,brant.darnel@example.com,jacklyn.emayo@example.com,amos.linnan@example.com,karla.ken@example.com</direct><error_string/><headers>X-ServiceNow-Source:Notification-520c05ee838322107f44168c50da1e37&#13;
+List-Unsubscribe:&lt;mailto:?body=Sending+this+email+with+the+predefined+content+in+the+subject+and+body+will+unsubscribe+you+from+the+notification.%0D%0A%0D%0AUnsubscribe%3A%7B%22id%22%3A%22520c05ee838322107f44168c50da1e37%22%2C%22token%22%3A%22c797e62132%22%7D&#13;
+ &amp;subject=Unsubscribe+from+%22critical+network+incident+notification%22&gt;&#13;
+X-ServiceNow-SysEmail-Version:2&#13;
+</headers><importance>high</importance><instance>c404d9aa83c322107f44168c50da1e48</instance><mailbox display_value="Outbox">outbox</mailbox><message_id/><notification_type>SMTP</notification_type><receive_type>new</receive_type><recipients>brendan.qin@example.com,brice.hedglin@example.com,bradly.hasselvander@example.com,alyssa.biasotti@example.com,alva.pennigton@example.com,amelia.caputo@example.com,brent.vaidya@example.com,brant.darnel@example.com,jacklyn.emayo@example.com,amos.linnan@example.com,karla.ken@example.com</recipients><reply_to/><state>ready</state><status/><subject>Critical Network Incident INC0010002 was created byCarmel Overfelt</subject><sys_created_by>system</sys_created_by><sys_created_on>2025-08-02 00:32:25</sys_created_on><sys_id>c184ddea83c322107f44168c50da1e77</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-02 00:32:25</sys_updated_on><target_table>incident</target_table><type>send-ready</type><uid>N/A</uid><user/><user_id/><weight>0</weight></sys_email></record_update>]]></payload>
+<payload_hash>12755442</payload_hash>
+<remote_update_set display_value="incident_critical_notification_KK">757ba74f832322107f44168c50da1ea5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-28 21:20:17</sys_created_on>
+<sys_id>f97ba74f832322107f44168c50da1ea6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19868323fae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-28 21:20:17</sys_updated_on>
+<table/>
+<target_name>Critical Network Incident INC0010002 was created byCarmel Overfelt</target_name>
+<type>Email</type>
+<update_domain>global</update_domain>
+<update_guid>6da4ddaaecc32210febdcef129e608e8</update_guid>
+<update_guid_history>6da4ddaaecc32210febdcef129e608e8:12755442</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
